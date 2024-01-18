@@ -1,0 +1,50 @@
+# Quiz 
+
+A project to learn Typelevel
+
+### Prerequisites
+- Scala 2.13.8
+- Java 11
+- sbt +1.3
+
+### Running the application
+
+```sbt
+sbt run
+```
+
+### Running the tests
+
+```sbt
+sbt test
+```
+
+### Existing endpoint:
+
+#### Request
+
+`GET /api/hello`
+
+    curl -i -H 'Accept: application/json' http://localhost:8080/api/health
+    http http://localhost:8080/api/hello/test-name (httpie) 
+
+#### Response 
+    200 
+    {
+      "message": "Hello, test-name"
+    }
+
+## Exercise 1
+
+Create a health endpoint
+
+#### Request
+
+`GET /api/hello`
+
+    http http://localhost:8080/api/health 
+
+#### Response
+
+    200
+    I'm healthy

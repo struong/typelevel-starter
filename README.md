@@ -34,17 +34,6 @@ sbt test
       "message": "Hello, test-name"
     }
 
-## Exercise 1
+### Exercises
 
-Create a health endpoint
-
-#### Request
-
-`GET /api/hello`
-
-    http http://localhost:8080/api/health 
-
-#### Response
-
-    200
-    I'm healthy
+Are located in the Tickets folder. 

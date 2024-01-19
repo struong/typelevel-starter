@@ -1,3 +1,3 @@
 ## Ticket-9
 
-Extract out an interface to the stubbed database and use a real database
+Create a playground app within your application to test this. We will move parts of this code to integration tests later.

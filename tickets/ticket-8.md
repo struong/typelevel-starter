@@ -6,6 +6,8 @@ There is a docker-compose file in the root of the project that will start a post
 
 We use doobie as the pure functional JDBC layer: https://tpolecat.github.io/doobie/
 
+Note: You will need to manually handle schema migrations.
+
 To help you get started, use these imports:
 ```scala
 import cats._

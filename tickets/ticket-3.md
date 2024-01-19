@@ -3,6 +3,14 @@
 Add a POST endpoint to create a quiz. It will create a new object containing
 the quiz information below and create a unique ID for it.
 
+You will need to dive into how JSON is encoded and decoded in http4s (using `circe`):
+https://http4s.org/v1/docs/json.html 
+
+Take advantage of using the automatic generic encoder:
+```scala
+import io.circe.generic.auto._
+```
+
 To help you implement the routes, store the information in a stub database for now.
 
 ```scala
